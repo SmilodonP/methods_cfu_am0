@@ -25,6 +25,7 @@
 # The return value is true.
 "Hello World".end_with?("rld")
 
+# I messed up my next two questions, but I want to leave the work that I did so that you can see it. I will do the correct answers underneath each incorrect answer.
 
 # ".even?" is a method that determines wether or not an integer is odd or even and returns a boolean value.
 # Before this method can be called, the ".length" method must be used to call the string, "Hello World".
@@ -33,17 +34,20 @@
 # This can be written as:
 `"Hello World".length.even?`
 # The return value is false
-"Hello World".even?
 
 
+# ".even?" is a method that determines wether or not an integer is odd or even and returns a boolean value.
+# No arguement is passed. This method simply determines wether or not the integer it is called upon is odd or even.
 
-# The next method is called on the string object "Hello World"
-# No arguement is passed. This method simply changes the last letter in the string to the next letter in the alphabet
-# The return value is "Hello Worle"
+```12.even?
+=>true```
+
 # When called on an integer, next increases its value by 1.
+# No arguement is passed. This method simply increases the value of the integer it was called upon by 1.
+# 
 ```18.next
 =>19```
-"Hello World".next
+
 
 
 
