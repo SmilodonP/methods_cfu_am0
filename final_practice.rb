@@ -6,11 +6,11 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 def general_greeting
-    "Welcome, friends & enemies."
+    puts "Welcome, friends & enemies."
 end
 
 # What is the return value of your method?
-"Welcome, friends & enemies."
+# nil
 
 # How many arguments did you pass your method?
 # None
@@ -18,13 +18,13 @@ end
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 
 def custom_greeting_for_a_cat(name)
-    "Hello #{name}! Arent you just a silly little ball of fur and weirdness!"
+    puts "Hello #{name}! Arent you just a silly little ball of fur and weirdness!"
 end
 
 name =  "Tina"
 custom_greeting_for_a_cat(name)
 # What is the return value of your method?
-# "Hello Tina! Arent you just a silly little ball of fur and weirdness!"
+# nil
 
 # How many arguments did you pass your method?
 # 1
@@ -35,7 +35,7 @@ custom_greeting_for_a_cat(name)
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
 def greet_person(first_name, middle_name, last_name)
-    "Hello, #{first_name} #{middle_name} #{last_name}. Isn't it werid that I know your whole name?"
+    print "Hello, #{first_name} #{middle_name} #{last_name}. Isn't it werid that I know your whole name?"
 end
 
 first_name = "Thomas"
@@ -45,7 +45,7 @@ last_name = "Steve"
 greet_person(first_name, middle_name, last_name)
 
 # What is the return value of your method?
-# "Hello, Thomas Jonathan Steve. Isn't it werid that I know your whole name?"
+# nil
 
 # How many arguments did you pass your method?
 # 3
@@ -61,11 +61,11 @@ def square_it_up(number)
 end
 
 number = 11
-puts "The square of #{number} is #{square_it_up(number)}"
+print "The square of #{number} is #{square_it_up(number)}"
 
 
 # What is the return value of your method?
-# The square of the variable integer.
+# nil
 # How many arguments did you pass your method?
 # 1
 # What data type was your argument(s)?
