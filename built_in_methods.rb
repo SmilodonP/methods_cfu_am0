@@ -113,4 +113,3 @@ puts favorite_numbers.sort
 # Return prints the argued number of random elements ([6, 1001, 389])
 randomish_numbers = [33, 51, 6, 9873, 389, 1001, 27534]
 randomish_numbers.sample(3)
-
